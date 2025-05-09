@@ -1,6 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
-const magnetGenerator = require('../mods/magnetGenerator.js');
+const magnetGenerator = require('../modules/magnetGenerator.js');
 
 axios.get('https://apibay.org/q.php?q=Africa%20Screams&cat=0')
     .then(({ data }) => {
